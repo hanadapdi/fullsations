@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.showslide{
+    @apply  lg:w-[25%] md:w-[25%] sm:w-[30%] sm:inline hidden h-full duration-500  
+}
+.hideslidebar {
+    @apply   w-16  duration-300  
+}
+.navbar {
+    @apply w-full flex justify-between items-center bg-white h-16
+}
+
+.slideList{
+    @apply w-full p-2 flex items-center space-x-2 bg-[#ffffff7e]  font-press
+    mt-2 rounded-md capitalize  text-gray-500 hover:bg-white duration-200 hover:text-black 
+  hover:shadow-gray-100 hover:shadow cursor-pointer font-medium dark:bg-black
+  dark:hover:shadow-gray-600 dark:hover:text-gray-300
+}
+
+
+.slideListbig{
+    @apply p-3 flex items-center space-x-2  w-full  
+    mt-2 rounded-md capitalize bg-[#4aac93]  text-white
+}
+.tapFalse {
+    @apply py-4 px-10 text-xl text-gray-400 hover:text-black bg-white duration-300 mt-6 
+   font-semibold capitalize cursor-pointer
+}
+.taptrue {
+    @apply py-4 px-10 text-xl text-gray-400 hover:text-black  duration-300 mt-6 
+   font-semibold capitalize bg-gray-300  cursor-pointer
+}
+
+
+.analysis{
+    @apply w-full mt-2 col-start-1 col-end-5 h-full bg-white rounded p-3 dark:bg-slate-800   duration-300 dark:text-white
+}
+
+.theme{
+    @apply bg-white h-16 dark:bg-slate-800   dark:text-white 
+}
+
+.hover {
+    @apply dark:hover:text-gray-300 duration-500 hover:bg-gray-600  
+}
+.darks{
+    @apply dark:text-white dark:bg-black duration-300 bg-white
+    
+}
+
+.btn{
+    @apply bg-[#4aac93] 
+    /* 3262a981 */
+}
+.btn2{
+    @apply  bg-[#4aac9470]  dark:bg-[#213148c1]
+}
+.textbtn{
+    @apply text-[#4aac94]
+}
+
